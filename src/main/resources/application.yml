@@ -13,10 +13,6 @@ spring:
         username: root
         password: 123456
 
-#        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-#        url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=springbootpt9c5
-#        username: sa
-#        password: 123456
 
     servlet:
       multipart:
