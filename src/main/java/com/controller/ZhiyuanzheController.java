@@ -229,7 +229,6 @@ public class ZhiyuanzheController {
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody ZhiyuanzheEntity zhiyuanzhe, HttpServletRequest request){
-        //ValidatorUtils.validateEntity(zhiyuanzhe);
         zhiyuanzheService.updateById(zhiyuanzhe);//全部更新
         return R.ok();
     }
